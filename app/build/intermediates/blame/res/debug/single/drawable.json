@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\sys5\\.android\\build-cache\\51acc04b7383ad78e6b42a9b3b5959efcc1a4402\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\sys5\\.android\\build-cache\\51acc04b7383ad78e6b42a9b3b5959efcc1a4402\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\sys5\\.android\\build-cache\\51acc04b7383ad78e6b42a9b3b5959efcc1a4402\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
