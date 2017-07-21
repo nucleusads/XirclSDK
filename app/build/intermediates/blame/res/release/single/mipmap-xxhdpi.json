@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "E:\\xircles\\XirclSDK\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\xircles\\XirclSDK\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\xircles\\XirclSDK\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]
