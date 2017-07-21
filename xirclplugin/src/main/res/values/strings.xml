@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">XirclPlugin</string>
+
+
+    <string name="apiKeyCustomerMobile">customer_mobile</string>
+    <string name="apiKeyCustomerEmail">customer_email</string>
+    <string name="apiKeyMerchantRefCode">merchant_ref_code</string>
+
+    <string name="apiKeyUserPinCode">pincode</string>
+    <string name="apiKeyUserCity">city</string>
+    <string name="apiKeyUserCountry">country</string>
+    <string name="apiKeyPriceBefore">price_before_apply_offer</string>
+    <string name="apiKeyPriceAfter">price_after_apply_offer</string>
+
+    <string name="tagAuthentication">Authorization</string>
+
+
+    <!--New tag for python-->
+    <string name="tagStatus">status_code</string>
+    <string name="tagMessage">message</string>
+    <string name="tagData">data</string>
+
+    <string name="apiKeyOfferList">offer_list</string>
+    <string name="apiParamOfferId">offer_id</string>
+
+    <string name="apiParamOfferTypeId">offer_type_id</string>
+    <string name="apiParamOfferSavingValue">offer_savings_value</string>
+    <string name="apiParamOfferCode">offer_code</string>
+    <string name="apiParamOfferMaxValue">offer_max_order</string>
+    <string name="apiParamSellerRefCode">sell_ref_code</string>
+    <string name="apiParamOfferName">offer_name</string>
+    <string name="apiParamOfferImage">offer_image</string>
+    <string name="apiParamOutletName">outlet_name</string>
+    <string name="apiParamOfferDes">description</string>
+
+
+    <!--Api tag-->
+    <string name="apiTagGetProductOffer">product_offer_check</string>
+    <string name="apiTagGetCartOffer">cart_offer_check</string>
+    <string name="apiTagGetMyOffer">cust_my_offers</string>
+    <string name="apiTagRedeemOffer">confirm_order</string>
+
+
+</resources>
