@@ -43,7 +43,7 @@ public class XirclHelper extends Application {
         HashMap<String, String> params = new HashMap<String, String>();
         try {
             params.put(context.getString(R.string.tagAuthentication), authenticationkey);
-            params.put("Content-Type", "application/x-www-form-urlencoded");
+            params.put("Content-Type", "application/x-www-form-urlencoded; application/json; charset=utf-8");
         } catch (Exception e) {
             return null;
         }

@@ -155,10 +155,7 @@ public class XirclController implements XirclsInterFace {
         try {
             final ArrayList<OfferDAO> offerList;
             offerList = new ArrayList<OfferDAO>();
-            final Map<String, String> xirclsParams = new HashMap<String, String>();
-            xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyCustomerMobile), userDetails.getUserMobile());
-            xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyCustomerEmail), userDetails.getUserEmail());
-            xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyMerchantRefCode), userDetails.getSellerRefCode());
+
             StringRequest strReq = new StringRequest(Request.Method.POST, XirclHelper.prepareURL(userDetails.getConnectionURL(), userDetails.getContext().getString(R.string.apiTagGetProductOffer), userDetails.getContext()),
                     new Response.Listener<String>() {
                         @Override
@@ -211,6 +208,11 @@ public class XirclController implements XirclsInterFace {
 
                 @Override
                 protected Map<String, String> getParams() {
+                    final Map<String, String> xirclsParams = new HashMap<String, String>();
+                    xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyCustomerMobile), userDetails.getUserMobile());
+                    xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyCustomerEmail), userDetails.getUserEmail());
+                    xirclsParams.put(userDetails.getContext().getString(R.string.apiKeyMerchantRefCode), userDetails.getSellerRefCode());
+                    Log.e("Data in params", xirclsParams.toString());
                     return xirclsParams;
                 }
 
